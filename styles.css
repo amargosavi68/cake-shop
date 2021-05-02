@@ -17,6 +17,10 @@ header {
      z-index: 100;
 }
 
+header > div {
+     padding: 0px 10px;
+}
+
 nav ul {
      display: flex;
      justify-content: space-evenly;
@@ -111,6 +115,8 @@ nav ul li a:active {
      display: block;
      margin-left: 75%;
      margin-top: 30px;
+     margin-bottom: 40px;
+
 }
 #photos .cake-section .more-image-btn button {
      padding: 8px 15px;
@@ -119,4 +125,39 @@ nav ul li a:active {
      background-color: rgb(5, 191, 178);
      color: #FFF;
      font-weight: 600;
+}
+
+#about-us {
+     background-color: #f5feff;
+}
+
+#about-us div h1 {
+     padding-top: 70px;
+     text-align: center;
+     color: rgb(6, 148, 220);
+     font-size: 30px;
+     margin-bottom: 20px;
+}
+
+#about-us .content {
+     display: flex;
+     justify-content: center;
+}
+
+#about-us .content .first-section {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+#about-us .content .first-section .description {
+     padding: 40px;
+     width: 350px;
+     line-height: 2rem;
+     box-shadow: -1px 1px 5px 2px #ddd;
+}
+
+#about-us .content .first-section div img {
+     height: 400px;
+     padding: 30px 50px;
 }
