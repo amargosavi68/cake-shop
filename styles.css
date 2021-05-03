@@ -74,7 +74,7 @@ nav ul li a:active {
      margin: 0px 10%;
 }
 
-#photos div h1 {
+div h1 {
      padding-top: 70px;
      text-align: center;
      color: rgb(6, 148, 220);
@@ -131,13 +131,6 @@ nav ul li a:active {
      background-color: #f5feff;
 }
 
-#about-us div h1 {
-     padding-top: 70px;
-     text-align: center;
-     color: rgb(6, 148, 220);
-     font-size: 30px;
-     margin-bottom: 20px;
-}
 
 #about-us .content {
      display: flex;
@@ -160,4 +153,35 @@ nav ul li a:active {
 #about-us .content .first-section div img {
      height: 400px;
      padding: 30px 50px;
+}
+
+
+#contact-us .contact-section {
+     display: flex;
+     justify-content: flex-start;
+     align-items: center;
+}
+
+#contact-us .contact-section div img {
+     height: 400px;
+     padding: 20px;
+     transform: translateY(-70px);
+}
+
+#contact-us .contact-section .contact-item {
+     display: flex;
+     margin: 20px 50px;
+}
+
+#contact-us .contact-section .contact-item > span {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 40px;
+     width: 40px;
+     align-self: center;
+     margin: 0px 15px;
+     border: 1px solid black;
+     font-size: 25px;
+     border-radius: 50%;
 }
